@@ -6,6 +6,7 @@ public class Main extends GameApp {
     private Player player;
     private Coin coin;
     private int points;
+
     @Override public void settings() {
         padding(20);
         size(640, 400);
